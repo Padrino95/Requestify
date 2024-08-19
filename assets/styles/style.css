@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #1A1A1A;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(196, 191, 191);
+}
+ .blanco{
+    color: rgb(196, 191, 191);
+}
+
+nav{
+    opacity: 1;
+    background-color:#736c56;
+
+}
+header{
+    margin-bottom: 62px;
+}
+/* main{
+    margin-top: 48px;
+} */
+
+/* Formularios */
+    /*=============================== Borde y hover formularios ======================================================*/
+    .formG{
+        border: black 1px solid;
+        border-radius: 15px;
+        background-color: #2b2a2a;
+        opacity: 0.5;
+    }
+    .form-control {
+        background-color: transparent;
+        border: black 1px solid;
+        box-shadow: none;
+        color: whitesmoke;
+    }
+    .form-control:hover{
+        border: white 1px solid;
+    }
+    .form-control:focus{
+        background-color: transparent;
+        color: whitesmoke;
+    }
+    .buscador{
+        border: none;
+        background-color: transparent;
+    }
+    select{
+        background-color: transparent !important;
+        border: #000000 1px solid!important;
+        color: white !important;
+    }
+
+    /*================================ Botones formularios============================================================== */
+    .enviar{
+        background-color: transparent;
+        border: black 1px solid;
+        color: whitesmoke;
+    }
+    .enviar:hover{
+        border: white 1px solid;
+    }
+    .btn-custom {
+        background-color: #dad4c8; /* Color inicial del botón */
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+    }
+    .btn-custom:hover {
+        background-color: #dad4c8; /* Nuevo color al hacer hover */
+        color: black;
+        transform: scale(1.30); /* Aumento de tamaño al hacer hover */
+    }
+
+
+
+#plataformas img{
+    width: 220px;
+    height: 220px;
+}
+    
+    
+
+
+/* TABLAS */
+/* #413b2d */
+body thead th {
+    background-color: #000000 !important;
+}
+
+.carousel-item img {
+    /* Originales */
+    /* max-height: 400px;
+    width: 100%;
+    object-fit: cover; */
+
+    /* A quitar porque son solo para el grande de editor proyecto */
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+.planes{
+    color: #1A1A1A ;
+
+}
+.plan{
+    background-color: #dad4c8;
+}
+.planes img{
+    height: 50px;
+}
+.peticion{
+    background-color: #2b2a2a;
+    color: whitesmoke;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.planes button{
+    color: #1A1A1A;
+}
+
+.hover {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hover:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+
+  /* Tabla comparativa */
+#tabla {
+    width: 65%;
+    margin: auto;
+    margin: 220px auto;
+    font-size: 100%;
+    text-align: center;
+    color: whitesmoke;
+  }
+  #tabla td {
+    padding: 20px 0;
+  }
+  #tabla th {
+    padding: 0px 10px;
+  }
+  #tabla h2 {
+    color: whitesmoke;
+    font-size: 60px;
+    margin-bottom: 100px;
+  }
+  #plan tr > td:nth-child(1) {
+    width: 450px;
+    text-align: left;
+  }
+  .accordion-body {
+    color: whitesmoke;
+}
+
+.accordion-header{
+    opacity: 0.9;
+}
+
+  @media screen and (max-width: 500px) {
+    table#plan {
+      max-width: 100%;
+      font-size: 77%;
+    }
+}
+
+
+.inputText{
+    background-color: #2b2a2a;
+    color: whitesmoke;
+}
+.inputText::placeholder {
+    color: whitesmoke;
+    opacity: 0.3; /* Ajusta la opacidad según sea necesario */
+}
+.inputText1{
+    background-color: #2b2a2a;
+    color: whitesmoke;
+}
+.inputText1::placeholder {
+    color: whitesmoke;
+    opacity: 0.3; /* Ajusta la opacidad según sea necesario */
+}
+
+
+/* Api fotos */
+/* .container {
+    width: 1800px;
+    height: 500px;
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
+
+/* Imagenes redondas editores    */
+.img-container {
+    background-color: #a8a089;
+    border-radius: 50%;
+}
+
+
+
+.fixed-size-img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 200px; /* Establece una altura fija para la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta lo que sobresalga */
+}
+
+
+
+
+/* Colores divs proyectos */
+.divProyectoOscuro{
+    background-color: #a8a089;
+}
+
+.divProyectoClaro{
+    background-color: #dad4c8;
+}
+
+
+
+
+
+.custom-list-group {
+    background-color: #2b2a2a;
+}
+
+.custom-list-group-item {
+    background-color: #2b2a2a;
+    color: whitesmoke;
+    border-color: rgba(255, 255, 255, 0.2); /* Opcional: para hacer las líneas divisorias más sutiles */
+}
+
+/* .custom-list-group-item h5, */
+.custom-list-group-item p,
+.custom-list-group-item small {
+    color: whitesmoke;
+}
+
+.custom-small{
+    color: whitesmoke !important; 
+    opacity: 0.5;
+}
+.custom-list-group-item h5{
+    color: #dad4c8;
+}
+
+
+
+.divProyectoOscuro {
+    position: relative;
+}
+
+.btn-puntuar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+
+/* Estrellas puntuación */
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #f5b301;
+}
+
+
+/* .destacadaIndex{
+    width: 100%;
+    height: 900px !important;
+    object-fit: cover;
+} */
+
+
+
+.destacadaIndex {
+    width: 100%;
+    height: auto;
+    max-height: 900px;
+    object-fit: cover;
+}
+
+
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.stars .fa-star {
+    color: gold; /* Color de las estrellas llenas */
+    margin-right: 5px; /* Espacio entre las estrellas */
+}
+.stars .far {
+    color: lightgray; /* Color de las estrellas vacías */
+    margin-right: 5px; /* Espacio entre las estrellas */
+}
+
+
+
+
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fotosIndex{
+    padding: 0 5px;
+}
+
+
+/* Ajustes adicionales para diferentes tamaños de pantalla */
+@media screen and (max-width: 1400px) {
+    .destacadaIndex {
+        max-height: 700px; /* Ajusta la altura máxima para pantallas más pequeñas */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .destacadaIndex {
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .destacadaIndex {
+        max-height: 400px;
+    }
+    .fotosIndex{
+        margin-bottom: 15px;
+    }
+    #proyectoMesIndex{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .proyectoMesIndex.pt-5 {
+        padding-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .destacadaIndex {
+        max-height: 300px;
+    }
+}
+
+
+
+.form-select {
+    background-color: transparent !important; /* Importante para forzar la transparencia */
+    border: 1px solid #ccc; /* Añadir un borde si es necesario */
+}
+
+.form-select option {
+    background-color: rgba(255, 255, 255, 0.8) !important; /* Fondo semitransparente */
+    color: black; /* Asegurar la legibilidad del texto */
+}
+
+.form-select:-webkit-autofill,
+.form-select:-webkit-autofill:hover,
+.form-select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+}
+
+
+
+.form-control::placeholder {
+    color: whitesmoke !important;;
+    opacity: 0.5; 
+}
+
+
+.navbar-brandM{
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.navbar-brandM .logo {
+    max-width: 70px; /* Ajusta este valor según el tamaño deseado */
+    height: auto;
+  }
+
+
+  #ejemplo{
+    max-height: 750px !important;
+    object-fit: cover;
+  }
