@@ -73,7 +73,8 @@ include("../vistas/head.html");
     <script>
         function translateText() {
             const inputText = document.querySelector('.inputText').value;
-            const apiKey = 'AIzaSyCLjtiyTp-6mFGzbHRQtBFg1Yw4Q9zbKSs';
+            // Introduce tu API KEY en las comillas
+            const apiKey = '';
             const targetLanguage = 'es';
 
             // Detectar automáticamente el idioma de origen
